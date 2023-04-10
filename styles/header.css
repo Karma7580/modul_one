@@ -1,0 +1,164 @@
+.header {
+  max-width: 1300px;
+  margin: 0px auto;
+  max-height: 80px;
+  background: #213B7E;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: center;
+}
+  
+.logo {
+  padding: 15px 0 14px 16px;
+}
+  
+.logo_Innopolis {
+  margin: 16px 347px 17px 16px;
+  width: 47px;
+  height: 47px;
+  border-radius: 50%;
+}
+
+.button_checkbox {
+  position: absolute;
+  background-color: #213B7E;
+  display: none;  
+}
+
+.menu__box {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+  
+.menu_item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  padding: 30px 18px;
+  display: block;
+}
+  
+.menu_item_active {
+  color: #213B7E;
+  background-color: #FFFFFF;
+}
+  
+  menu_item:hover {
+  background: #FFFFFF;
+  color: #213B7E;
+  text-decoration: none;
+}
+  
+.button {
+  margin-top: 15px;
+  margin-right: 16px;
+  width: 153px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;;
+  background: #EA5D21;
+  text-decoration: none;
+  border: none;
+  background-color: #EA5D21;
+  transition: .2s;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+  
+.button:hover {
+  background-color: rgb(92, 124, 188);
+}
+
+.button:active {
+  box-shadow: 0 0 0 2px, 0 0 0.625em 0 ;
+}
+
+.block {
+  display: none;
+  position: absolute;
+  margin: 160px 400px 502px 400px;
+  width: 500px;
+  height: 418px;
+  background: #FFFFFF;
+  border: 1px solid #213B7E;
+  z-index: 1;
+}
+
+.visible {
+  display: inline-block;
+}
+
+.forma {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.block_title {
+  margin: 0;
+  padding: 26px 0 36px 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.login {
+  padding-left: 8px;
+  padding-right: 8px;
+  width: 444px;
+  height: 55px;
+  left: 498px;
+  top: 250px;
+  border: 1px solid #808080;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.password {
+  padding-left: 8px;
+  padding-right: 8px;
+  margin: 56px 0;
+  width: 444px;
+  height: 55px;
+  left: 498px;
+  top: 250px;
+  border: 1px solid #808080;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+}
+
+.btn_block {
+  margin: 0 0 56px 174px;
+  padding: 0;
+}
+
+.btn_block:active {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22) ;
+}
+
+

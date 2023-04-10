@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body class="root">
+<div class="page">
+    <header class="header">
+        <nav class="nav">
+            <div class="hamburger-menu">
+                <input class="button_checkbox" id="menu__toggle" type="checkbox">
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li>
+                        <a class="logo" href="./index.html"> 
+                        <img class="logo_Innopolis" src="./img/logo_innopolis.jpg" alt="Логотип Университета 
+                        Иннополис"></a>
+                    </li>
+                    <li>
+                        <a class="menu_item" href="./index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a class="menu_item" href="./students.html">Студенты</a>
+                    </li>
+                    <li>
+                        <a class="menu_item" href="./about.html">О курсе</a>
+                    </li>
+                    <li>
+                        <a class="menu_item menu_item_active" href="./contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <button type="button" class="button visible_btn">Войти</button>
+            <div class="block">
+                <h2 class="block_title">Войти на сайт</h2>
+                <form class="forma">
+                    <div>
+                        <input class="login" type="text" autofocus placeholder="Логин">
+                    </div>
+                    <div>
+                        <input class="password" type="password" placeholder="Пароль">
+                    </div>
+                </form>
+                <button type="button" class="button visible_btn btn_block">Войти</button>
+        </div> 
+    </header>
+    <main class="content-contacts">
+        <h2 class="subtitle-contacts">Как нас найти &#x1F5FA; &#xFE0F;</h2>
+        <div class="map-responsive">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.4778727520375!2d30.311953777109707!3d59.94080567491623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46963110ebe9ea5b%3A0x86b0025c5a84a071!2z0JTQstC-0YDRhtC-0LLQsNGPINC_0LsuLCAyLCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkwMDAw!5e0!3m2!1sru!2sru!4v1680933316011!5m2!1sru!2sru"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <p class="contacts-text">Наши контакты</p> 
+        <p class="contact-address"> Адрес: г. Санкт-Петербург, Дворцовая пл., 2, 190000 
+            <a class="contact-phone" href="tel:+78125555555">Тел: +7 (812) 555-55-55 <img class="shake-lr" 
+            src="./img/phone.svg" alt="Позвоните нам по этому номеру"></a>
+        </p> 
+    </main>
+</div>
+<footer class="footer">
+    <div class="footer_text">2023 &copy;&thinsp;
+        <a class="footer_text footer_text_first" href="./index.html">учебный центр</a>
+    </div>
+</footer> 
+</body>
+</html>

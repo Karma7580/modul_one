@@ -1,0 +1,454 @@
+@import url("./header.css");
+@import url("./footer.css");
+@import url("./students.css");
+@import url("./about.css");
+@import url("./contacts.css");
+@import url("./device.css");
+@import url("./header.css");
+@import url("./burger.css");
+
+.root {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1300px;
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.img {
+  max-width: 100%;
+}
+
+.page {
+  flex-grow: 1;
+}
+
+.content {
+  padding-left: calc(50% - 911px / 2);
+  padding-right: calc(50% - 911px / 2);
+  padding-top: 33px;
+  max-width: 911px;
+}
+
+.title {
+  margin: 0 auto;
+  max-width: 911px;
+  height: 35px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  display: flex;
+  align-items: center; 
+  color: #000000;
+}
+
+.photo {
+  padding-top: 25px;
+}
+
+.content_info {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+.heading {
+  position: relative;
+  padding-top: 20px;
+  max-width: 129px;
+  height: 90px;
+  display: flex;
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  color: #646464;
+  font-family: 'Lobster', cursive;
+}
+
+.quote_left {
+  margin-top: 27px;
+  padding-right: 5px;
+  font-size: 64px;
+  font-family: 'Lobster', cursive;
+}
+
+.quote_right {
+  margin-top: 75px;
+  font-size: 64px;
+  font-family: 'Lobster', cursive;
+}
+
+.content_section {
+  max-width: 634px;
+  padding-bottom: 187px;
+}
+
+.subtitle {
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.about_text {
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.font_bold {
+  font-weight: 700;
+}
+
+.text_class2 {
+  color: #CF5510;
+  font-weight: 700;
+  font-style: oblique;
+}
+
+@media (max-width: 1440px) {
+
+/* Стиль для laptop L */
+
+  .footer {
+    margin: 0;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  /* Стиль для laptop */
+
+  .heading {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .logo_Innopolis {
+    margin-right: 150px;
+  }
+
+  .content {
+    padding-left: 30px;
+    padding-right: 10px;
+  }
+
+  .block {
+    margin-left: 260px;
+  }
+
+  .footer {
+    margin: 0;
+  }
+
+}
+
+@media (max-width: 800px) {
+
+  /* Стиль для tablet */
+
+  .header {
+    padding-left: 0px;
+    padding-right: 0px;
+    min-height: 70px;
+  }
+
+  .menu__box {
+    margin: 0;
+    padding-left: 0px;
+  }
+
+  .menu_item {
+    font-size: 18px;
+    padding: 26px 16px;
+  }
+
+  .nav {
+    margin: 0;
+  }
+
+  .logo {
+    margin: 10px 10px 0 0;
+    padding: 0;
+  }
+
+  .logo_Innopolis {
+    margin: 15px 30px 0 20px;
+  }
+
+  .button {
+    padding: 0px;
+  }
+
+  .block {
+    margin-left: 80px;
+  }
+
+  .content {
+    padding-left: 20px;
+  }
+
+  .title {
+    margin-left: 55px;
+    margin-bottom: 10px;
+  }
+
+  .photo {
+    margin-left: 55px;
+  }
+
+  .content_info {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .content_section {
+    padding-bottom: 0;
+  }
+
+  .subtitle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 187px;
+  }
+
+  .quote_left {
+     margin-top: 15px; 
+  }
+
+  .quote_right {
+    margin-top: 65px;
+  }
+
+  .footer {
+    margin: 0;
+  }
+}
+
+@media (max-width: 744px) {
+
+  /* Стиль для mobile L */
+  
+  .header {
+    padding-left: 16px;
+    padding-right: 16px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .menu__box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logo_Innopolis {
+    margin: 0 0 20px 45px;
+    width: 55px;
+    height: 55px;
+  }
+
+  .button {
+    margin: 55px 10px;
+  }
+
+  .block {
+    margin: 180px 0 0 50px;
+    max-width: 300px;
+    max-height: 320px;
+  }
+
+  .block_title {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .login {
+    max-width: 200px;
+    margin: 0;
+  }
+
+  .password {
+    max-width: 200px;
+    margin: 30px 0 30px 0;
+  }
+
+  .btn_block {
+    margin: 0 0 0 80px;
+  }
+
+  .menu_item {
+    padding: 10px 30px ;
+  }
+
+  .content {
+    padding-left: 10px;
+  }
+
+  .title {
+    margin-left: 0;
+    padding: 15px 0;
+  }
+
+  .photo {
+    margin-right: 0px;
+    margin-left: 0px;
+    max-width: 100%;
+  }
+
+  .heading {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 384px) {
+
+  /* Стиль для mobile M с гамбургер-меню */
+
+  .header {
+    padding-right: 0;
+    display: grid;
+    align-content: stretch;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+  }
+
+  .logo_Innopolis {
+    margin: 10px 45px 10px 45px;
+  }
+
+  .button {
+    margin: 10px 0 10px 150px;
+  }
+
+  .btn_block {
+    margin: 0 0 0 80px;
+  }
+
+  .block {
+    margin: 700px 0 0 10px;
+  }
+
+  .content {
+    padding: 15px 10px;
+  }
+
+  .title {
+    font-size: 120%;
+    padding: 0;
+    margin: 5px 0 5px 0;
+  }
+
+  .subtitle {
+    font-size: 100%;
+    padding: 5px;
+  }
+  
+  .about_text {
+    font-size: 80%;
+    line-height: 18px;
+  }
+
+  .photo {
+    margin-right: 0;
+  }
+
+  .footer_text {
+    padding: 0;
+  }
+
+  .footer_text_first {
+    padding: 15px 0 15px 0;
+  }
+}  
+
+@media (max-width: 320px) {
+
+  /* Стиль для mobile S с гамбургер-меню */
+
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-left: 0px;
+    padding-right: 5px;
+  }
+
+  .logo {
+    margin: 0;
+  }
+
+  .logo_Innopolis {
+    margin-left: 45px;
+    margin-top: 0;
+  }
+
+  .button {
+    margin: 0 10px 0 50px;
+    max-width: 100px;
+  }
+
+  .btn_block {
+    margin: 0 0 0 90px;
+  }
+
+  .block {
+    max-width: 270px;
+    margin: 800px 20px 0 0;
+  }
+
+  .content {
+    margin-top: 10px;
+  }
+
+  .title {
+    margin-top: 10px;
+    padding: 0;
+    font-size: 100%;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .photo {
+    padding: 0px;
+  }
+
+  .heading {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

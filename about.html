@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="./js/script.js" defer></script>
+</head>
+<body class="root">
+<div class="page">
+    <header class="header">
+        <nav class="nav">
+            <div class="hamburger-menu">
+                <input class="button_checkbox" id="menu__toggle" type="checkbox">
+                <label class="menu__btn" for="menu__toggle">
+                    <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li>
+                        <a class="logo" href="./index.html"> 
+                        <img class="logo_Innopolis" src="./img/logo_innopolis.jpg" alt="Логотип Университета 
+                        Иннополис"></a>
+                    </li>
+                    <li>
+                        <a class="menu_item" href="./index.html">Главная</a>
+                    </li>
+                    <li>
+                        <a class="menu_item" href="./students.html">Студенты</a>
+                    </li>
+                    <li>
+                        <a class="menu_item menu_item_active" href="./about.html">О курсе</a>
+                    </li>
+                    <li>
+                       <a class="menu_item" href="./contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <button type="button" class="button visible_btn">Войти</button>
+            <div class="block">
+                <h2 class="block_title">Войти на сайт</h2>
+                <form class="forma">
+                    <div>
+                        <input class="login" type="text" autofocus placeholder="Логин">
+                    </div>
+                    <div>
+                        <input class="password" type="password" placeholder="Пароль">
+                    </div>
+                </form>
+                <button type="button" class="button visible_btn btn_block">Войти</button>
+        </div> 
+    </header>
+    <main class="content-about">
+        <h2 class="subtitle-about">О курсе &#128241;</h2>
+        <p class="text-about" >Посмотрите видео о нас</p>
+        <iframe class="video" src="https://www.youtube.com/embed/0v7pdd4za6s" title="Как эффективно искать информацию по фронтенду" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </main>
+</div>
+<footer class="footer">
+    <div class="footer_text">2023 &copy;&thinsp;
+        <a class="footer_text footer_text_first" href="./contacts.html">учебный центр</a>
+    </div>
+</footer> 
+</body>
+</html>
